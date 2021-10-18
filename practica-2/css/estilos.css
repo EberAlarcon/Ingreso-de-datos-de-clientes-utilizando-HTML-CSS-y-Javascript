@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+    background: -webkit-linear-gradient(to right, #4bd8e2, #2477f3);
+    background: linear-gradient(to right, #4bd8e2, #2477f3);
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+	max-width: 800px;
+	width: 90%;
+	margin: auto;
+	padding: 40px;
+}
+.formulario{
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 10px;   
+}
+h1{
+    color: rgba(150, 7, 7, 0.795);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+    font-weight: 700;   
+}
+form{
+    
+    background: -webkit-linear-gradient(to right, #0dfdd5, #0e53e7);
+    background: linear-gradient(to right, #0dfdd5, #0e53e7);
+    padding: 44px ;
+    border-radius: 50px;
+}
+.form{
+    width: 100%;
+    margin: auto;
+}
+form .datos{
+    position: relative;
+    margin: 25px;
+}
+input{
+    font-family: cursive;
+    background: rgb(150, 245, 211);
+    color: #000000;
+    font-size: 15px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+input:focus{ 
+    outline: none;
+    color: #1429e0;
+}
+label{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: red;
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    transition: 0.5s ease all;
+    pointer-events: none;
+}
+
+
+
+button{
+    font-family: 'roboto';
+    background: #2d58e7;
+    background: -webkit-linear-gradient(to right, #09bff7, #4568DC);
+    background: linear-gradient(to right, #09bff7, #4568DC);
+    border: solid;
+    display: block;
+    width: 30%;
+    margin: 30px auto;
+    color: #fff;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}

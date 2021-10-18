@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ingreso de Datos</title>
+
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <main>
+      <form action="" method="get" id="formulario">
+        <div class="form">
+          <h1>Ingreso de Datos de Clientes</h1>
+          <label for="nombres">Nombres:</label>
+          <div class="datos"> 
+          <input type="text" name="" id="nombres"placeholder="Ingrese sus nombre"/>         
+          </div>
+          <label for="apellidos">Apellidos:</label>
+          <div class="datos">  
+            <input type="text" name="" id="apellidos"
+            placeholder="Ingrese sus apellidos"/>    
+          </div>
+          <label for="cedula">Cédula de Identificación:</label>
+          <div class="datos">  
+            <input type="text" name="" id="cedula"            
+            placeholder="Dígite su número de cédula"/>      
+          </div>
+          <label for="">Teléfono/Celular:</label>
+          <div class="datos">
+              <input type="text" name="" id="telefono"
+              placeholder="Dígite su número telefónico/celular"/>           
+          </div>
+          <label for="">Dirección:</label>
+          <div class="datos">
+            <input type="text" name="" id="direccion"
+              placeholder="Ingrese su dirección"/>
+              
+          </div>
+
+          <label for="">Fecha de Nacimiento:</label>
+          <div class="datos">
+        <input type="date" name="" id="fecha_nacim" />
+        
+          </div>
+
+          <button type="submit" onclick="EnviarDatos()">Enviar Datos</button>
+           
+        </div>
+      </form>
+      <script src="codigo.js"></script>
+    </main>
+  </body>
+</html>
